@@ -1,3 +1,53 @@
-h1 {
-  color: green;
+body {
+  margin: 0;
+}
+main {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redditmedia.com%2F1zvq4e-s4PyT43Zzc0Dy9No817kWdUnAixAaZfGZ1aM.png%3Fw%3D1024%26s%3D1cf21c52e4fefa97efc52b406f885473&f=1&nofb=1);
+  background-size: cover;
+}
+
+#header {
+  font-family: Constantia;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(#ba4429, #982207);
+}
+#logo {
+  display: flex;
+  padding: 10px;
+}
+#logo p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 5px;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.125rem;
+  padding: 10px;
+  margin: 20px;
+}
+
+section {
+  width: 70vw;
+  background: linear-gradient(rgba(55, 60, 68, 0.9), rgba(92, 92, 94, 0.9));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 10px 150px 10px 150px;
+  box-shadow: black 10px 10px 20px;
 }
