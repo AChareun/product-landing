@@ -1,9 +1,10 @@
 body {
   margin: 0;
+  font-family: Constantia;
 }
 main {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -14,11 +15,12 @@ main {
 }
 
 #header {
-  font-family: Constantia;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
   width: 100%;
   height: auto;
   background: linear-gradient(#ba4429, #982207);
@@ -47,7 +49,49 @@ section {
   flex-direction: column;
   align-items: center;
   padding: 25px;
-  margin-top: 30px;
+  margin-top: 100px;
   border-radius: 10px 150px 10px 150px;
   box-shadow: black 10px 10px 20px;
+  font-family: Georgia;
+}
+h1 {
+  font-size: 2.2rem;
+}
+iframe {
+  width: 50%;
+  height: 40vh;
+  border-radius: 7px;
+  margin: 15px;
+}
+
+#survey-title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+#survey-subtitle {
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 5px 0 15px 0;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+#email {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+#submit {
+  width: 50%;
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
+  background: linear-gradient(#ba4429, #982207);
+  border: none;
+  border-radius: 5px;
 }
