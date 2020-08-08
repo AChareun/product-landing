@@ -25,37 +25,45 @@
             class="navbar-item"
             alt="shop logo"
           />
-          <a href="/index.html" class="navbar-item subtitle">THE SECRET SHOP</a>
+          <a href="#home" class="navbar-item subtitle">THE SECRET SHOP</a>
         </div>
         <div class="navbar-menu" id="navbar-links">
           <div class="navbar-end">
-            <a class="navbar-item link is-info nav-link is-tab">Trailer</a>
-            <a class="navbar-item link is-info nav-link is-tab">Quiz</a>
-            <a class="navbar-item link is-info nav-link is-tab">Items</a>
+            <a href="#video" class="navbar-item link is-info nav-link"
+              >Trailer</a
+            >
+            <a class="navbar-item link is-info nav-link">Quiz</a>
+            <a class="navbar-item link is-info nav-link">Items</a>
           </div>
         </div>
       </nav>
     </header>
-    <main>
-      <section class="hero is-fullheight-with-navbar is-dark is-bold">
-        <div class="hero-body">
-          <div class="container">
-            <h1 class="title is-2 is-spaced">
-              What does a Hero truly needs?
-            </h1>
-            <p class="subtitle is-4">
-              The best quality, the greatest lore
-            </p>
-            <p class="subtitle is-4">
-              Exactly what you need for your saga
-            </p>
+
+    <section id="home" class="hero is-fullheight-with-navbar">
+      <div class="hero-body level">
+        <div class="container">
+          <h1 id="hero-title">
+            What does a Hero truly needs?
+          </h1>
+          <p class="hero-subtitle">
+            The best quality, the greatest lore
+          </p>
+          <p class="hero-subtitle">
+            Exactly what you need for your saga
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="trailer-section" class="section">
+      <div class="level">
+        <div class="level-item has-text-centered">
+          <div>
+            <h2 id="trailer-title">Want to know more?</h2>
+            <p id="trailer-subtitle">Watch our promo video!</p>
           </div>
         </div>
-      </section>
-      <section class="section columns">
-        <figure class="column image is-5by3">
+        <figure class="level-item">
           <iframe
-            class="has-ratio"
             width="480"
             height="320"
             src="https://www.youtube.com/embed/-cSFPIwMEq4"
@@ -65,24 +73,24 @@
             id="video"
           ></iframe>
         </figure>
-      </section>
+      </div>
+    </section>
 
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <nav class="level-right" id="nav-bar">
-            <p class="level-item has-text-centered">
-              <a class="link is-info nav-link">GitHub</a>
-            </p>
-            <p class="level-item has-text-centered">
-              <a class="link is-info nav-link">LinkedIn</a>
-            </p>
-            <p class="level-item has-text-centered">
-              <a class="link is-info nav-link">Twitter</a>
-            </p>
-          </nav>
-        </div>
-      </footer>
-    </main>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <nav class="level-right">
+          <p class="level-item has-text-centered">
+            <a class="link is-info nav-link">GitHub</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="link is-info nav-link">LinkedIn</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="link is-info nav-link">Twitter</a>
+          </p>
+        </nav>
+      </div>
+    </footer>
 
     <script
       defer

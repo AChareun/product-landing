@@ -1,7 +1,32 @@
-nav {
-  box-shadow: white 1px 0 10px 0;
+#nav-bar {
+  box-shadow: #000 1px 0 10px 0;
 }
 #header-img {
   height: 50px;
   width: auto;
+}
+
+#home {
+  background: linear-gradient(-180deg, #ba4429, #1f191a);
+  color: #ddd;
+}
+#hero-title {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+.hero-subtitle {
+  font-size: 1.75rem;
+}
+
+#trailer-section {
+  color: #ddd;
+  background: linear-gradient(45deg, #1f191a, #1f191a);
+  padding: 130px;
+}
+#trailer-title {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+#trailer-subtitle {
+  font-size: 1.75rem;
 }
