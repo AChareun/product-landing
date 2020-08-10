@@ -6,6 +6,11 @@
   width: auto;
 }
 
+#navbar-links {
+  display: flex;
+  justify-self: flex-end;
+}
+
 #home {
   background: linear-gradient(-180deg, #ba4429, #1f191a);
   color: #ddd;
