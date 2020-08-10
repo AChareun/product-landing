@@ -32,8 +32,10 @@
             <a href="#video" class="navbar-item link is-info nav-link"
               >Trailer</a
             >
-            <a class="navbar-item link is-info nav-link">Quiz</a>
-            <a class="navbar-item link is-info nav-link">Items</a>
+            <a href="#form" class="navbar-item link is-info nav-link">Quiz</a>
+            <a href="#item-section" class="navbar-item link is-info nav-link"
+              >Items</a
+            >
           </div>
         </div>
       </nav>
@@ -76,19 +78,92 @@
       </div>
     </section>
 
-    <footer class="footer">
+    <section id="form-section" class="section">
+      <div class="level">
+        <div class="level-item has-text-centered">
+          <div>
+            <h2 id="form-title">Not sure what kind of hero you are?</h2>
+            <p id="form-subtitle">We'll send you a quiz!</p>
+            <form
+              id="form"
+              action="https://www.freecodecamp.com/email-submit"
+              class="field"
+            >
+              <div class="control">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="input"
+                  placeholder="Enter your email address"
+                />
+              </div>
+              <div class="control">
+                <input
+                  class="button is-success"
+                  type="submit"
+                  value="Get our quiz!"
+                  id="submit"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="item-section" class="section">
+      <div class="container has-text-centered">
+        <h2 id="item-title">Know our products!</h2>
+        <div id="products" class="columns">
+          <div class="product card column">
+            <div class="card-header">
+              <p class="card-header-title is-centered">REAVER</p>
+            </div>
+            <div class="card-content">
+              <p class="product-price">$3000</p>
+              <p>A massive axe capable of tearing whole mountains down.</p>
+            </div>
+            <input type="button" value="SELECT" class="button is-success" />
+          </div>
+          <div class="product card column">
+            <div class="card-header">
+              <p class="card-header-title is-centered">MYSTIC STAFF</p>
+            </div>
+            <div class="card-content">
+              <p class="product-price">$2700</p>
+              <p>Enigmatic staff made of only the most expensive crystals.</p>
+            </div>
+            <input type="button" value="SELECT" class="button is-success" />
+          </div>
+          <div class="product card column">
+            <div class="card-header">
+              <p class="card-header-title is-centered">EAGLESONG</p>
+            </div>
+            <div class="card-content">
+              <p class="product-price">$3000</p>
+              <p>
+                This mystical horn brings limitless dexterity to those who hear
+                it.
+              </p>
+            </div>
+            <input type="button" value="SELECT" class="button is-success" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer has-background-dark">
       <div class="content has-text-centered">
-        <nav class="level-right">
-          <p class="level-item has-text-centered">
-            <a class="link is-info nav-link">GitHub</a>
-          </p>
-          <p class="level-item has-text-centered">
-            <a class="link is-info nav-link">LinkedIn</a>
-          </p>
-          <p class="level-item has-text-centered">
-            <a class="link is-info nav-link">Twitter</a>
-          </p>
-        </nav>
+        <p>
+          <a class="link is-info nav-link">GitHub</a>
+        </p>
+        <p>
+          <a class="link is-info nav-link">LinkedIn</a>
+        </p>
+        <p>
+          <a class="link is-info nav-link">Twitter</a>
+        </p>
       </div>
     </footer>
 
